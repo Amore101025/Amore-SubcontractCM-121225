@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Device Registration Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@400;700&family=Merriweather:wght@300;700&family=Noto+Sans+TC:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Lato', 'Noto Sans TC', 'sans-serif'],
+              serif: ['Merriweather', 'Noto Sans TC', 'serif'],
+              display: ['Playfair Display', 'Cinzel', 'serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom textures for specific artists */
+      .texture-canvas { background-image: url('https://www.transparenttextures.com/patterns/canvas-orange.png'); }
+      .texture-paper { background-image: url('https://www.transparenttextures.com/patterns/cream-paper.png'); }
+      .texture-noise { background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "recharts": "https://esm.sh/recharts@^3.5.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
